@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>RECIPE!</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="test.css" type="text/css">
+
+  <script src="testscript.js" type="text/javascript">
+  </script>
 </head>
+<style>
+#review-form {
+  border: 1px solid;
+}
+</style>
 <body>
   <h1>Red Velvet Cake Recipe</h1>
   <header>
@@ -20,7 +30,7 @@
   </header>
   <aside>
     <h2 id="description">Description</h2>
-      <p>
+      <p style="font-weight: 600;">
         This is similar to the original recipe that began the 
         red velvet craze. It was developed by the Adams Extract 
         company in Gonzales, Tex. The original recipe, popularized 
@@ -54,8 +64,8 @@
         coloring. Blend into butter mixture.
       </li>
     </ol>
-    <section>
-      <form>
+    <section id="reviews">
+      <form id="review-form">
         <label for="review">
           Name:<input id="review" type="text">
         </label>
